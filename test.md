@@ -1,6 +1,6 @@
-# Heading 1	
+# Test Markdown File	
 
-## Heading 2	
+## Here are all of the formatting
 *Italic*	**Bold**	
 
 [Lab Writeup](https://ucsd-cse15l-w22.github.io/week/week2/)	
@@ -13,4 +13,9 @@
 * A simple
 * List
 
+1. One
+2. Two
+3. Three
+
+---
 `Inline code` with backticks
