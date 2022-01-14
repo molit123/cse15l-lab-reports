@@ -15,11 +15,11 @@
 
 * In order to conect to a remote computer, we need to first look-up the login information. To find your CSE 15L course-specific account, visit the website [here](https://sdacs.ucsd.edu/~icc/index.php). 
 
-* If you are on Windows, before starting the following step, make sure to install OpenSSH. Enter the following command into the VSCode terminal to begin connecting (open the terminal by clicking Terminal > New Terminal):
+* If you are on Windows, before starting the following step, make sure to install [OpenSSH](https://www.openssh.com/). Enter the following command into the VSCode terminal to begin connecting (open the terminal by clicking Terminal > New Terminal):
 
-  `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
+  `$ ssh cs15lwi22xyz@ieng6.ucsd.edu`
 
-  **Replace "zz" with your course-specific username**
+  **Replace "xyz" with your course-specific username**
 
     `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227) can't be established.
     RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
