@@ -25,7 +25,7 @@
     RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
     Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
-* If you are connecting for the first time, enter 'yes' for the above message. Then, enter your password and press enter. You should now be logged in. The terminal should display something like this: 
+* If you are connecting for the first time, enter `yes` for the above message. Then, enter your password and press enter. You should now be logged in. The terminal should display something like this: 
 
 ![Remote Connect1](remote_connect1.png)
 
@@ -43,7 +43,7 @@
 
 ![Local Command](commands.png)
 
-## 4) Moving Files with `scp`
+## 4) Moving Files with **scp**
 
 * Now let's try copying a file from the local computer over to the remote computer. First, make a file on your computer called `Test.java` containing some code. Then, type the following command in the Terminal:
 
