@@ -47,7 +47,7 @@
 
 * Now let's try copying a file from the local computer over to the remote computer. First, make a file on your computer called `Test.java` containing some code. Then, type the following command in the Terminal:
 
-    `scp filename.java cs15lwi22zz@ieng6.ucsd.edu:~/`
+    `scp filename.java cs15lwi22xyz@ieng6.ucsd.edu:~/`
 
 * Enter your password, and the file should be copied to the remote computer! In order to verify this, login to your remote computer and type `ls`, which prints the files in the current directory. You should see `Test.java` there.
 
