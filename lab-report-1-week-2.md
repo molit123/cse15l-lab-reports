@@ -75,13 +75,13 @@
 
 * You may have also realized how running these commands separately can be extremely ineffective. Fortunately, there is a way to run multiple commands at once. For example:
 
-  `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"` 
+  `$ ssh cs15lwi22xyz@ieng6.ucsd.edu "ls"` 
 
   allows us to login to the remote computer and run `ls` there as well.
 
 * The following command runs a file called `WhereAmI.java` on the remote desktop and prints the results:
 
-  `$ ssh cs15lwi22@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
+  `$ ssh cs15lwi22xyz@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"`
 
   Here are the results: 
 
