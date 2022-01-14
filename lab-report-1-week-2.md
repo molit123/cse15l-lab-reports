@@ -65,11 +65,11 @@
 
 * Now, we need to copy the public key to the remote computer. We can do this using `scp`:
 
-    `$ ssh cs15lwi22akw@ieng6.ucsd.edu`\
+    `$ ssh cs15lwi22xyz@ieng6.ucsd.edu`\
  `<Enter Password>`\
  `$ mkdir .ssh`\
  `$ exit`\
-`$ scp /Users/mohit/.ssh/id_rsa.pub cs15lwi22akw@ieng6.ucsd edu:~/.ssh/authorized_keys`
+`$ scp /Users/mohit/.ssh/id_rsa.pub cs15lwi22xyz@ieng6.ucsd edu:~/.ssh/authorized_keys`
 
 ## 6) Optimizing Remote Running
 
