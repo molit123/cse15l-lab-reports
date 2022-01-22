@@ -69,7 +69,7 @@
  `<Enter Password>`\
  `$ mkdir .ssh`\
  `$ exit`\
-`$ scp /Users/mohit/.ssh/id_rsa.pub cs15lwi22xyz@ieng6.ucsd edu:~/.ssh/authorized_keys`
+`$ scp /Users/mohit/.ssh/id_rsa.pub cs15lwi22xyz@ieng6.ucsd. edu:~/.ssh/authorized_keys`
 
 ## 6) Optimizing Remote Running
 
