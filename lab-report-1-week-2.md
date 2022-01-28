@@ -3,11 +3,11 @@
 ## 1) Installing VSCode
 * To begin installing VSCode, visit the website [here](https://code.visualstudio.com/) and follow the steps to download.
 
-![VSCode Download](vscode_download.png) 
+![VSCode Download](lab-report-1-images/vscode_download.png) 
 
 * Once you have downloaded VSCode correctly, the home page should look something like this:
 
-![VSCode Homepage](vscode_home.png)
+![VSCode Homepage](lab-report-1-images/vscode_home.png)
 
 * **Note:** Your home page may have a slightly different format or color (these can be modified later with certain extensions).
 
@@ -27,7 +27,7 @@
 
 * If you are connecting for the first time, enter `yes` for the above message. Then, enter your password and press enter. You should now be logged in. The terminal should display something like this: 
 
-![Remote Connect1](remote_connect1.png)
+![Remote Connect1](lab-report-1-images/remote_connect1.png)
 
 ## 3) Trying Some Commands
 
@@ -41,7 +41,7 @@
 
 * For example, here is what running the `ls -s` command looks like on a local computer: 
 
-![Local Command](commands.png)
+![Local Command](lab-report-1-images/commands.png)
 
 ## 4) Moving Files with **scp**
 
@@ -53,7 +53,7 @@
 
 * Use the image below for reference:
 
-![SCP](scp.png)
+![SCP](lab-report-1-images/scp.png)
 
 ## 5) Setting an SSH Key
 
@@ -61,7 +61,7 @@
 
 * Enter `ssh-keygen` and follow the steps below to create the key:
 
-![SSH Keygen](ssh_keygen.png)
+![SSH Keygen](lab-report-1-images/ssh_keygen.png)
 
 * Now, we need to copy the public key to the remote computer. We can do this using `scp`:
 
@@ -85,7 +85,7 @@
 
   Here are the results: 
 
-  ![Remote File](run_remote_file.png)
+  ![Remote File](lab-report-1-images/run_remote_file.png)
 
 * The file prints the name of the computer's OS, the current username, the home directory, and the current directory.
 
