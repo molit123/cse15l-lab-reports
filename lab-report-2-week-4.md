@@ -1,4 +1,4 @@
- [Home](http://example.com/){: .btn .btn-green }
+ [Home](https://molit123.github.io/cse15l-lab-reports/){: .btn .btn-green }
 # Lab Report #2 
 
 ## 1) Omitting Image Links
