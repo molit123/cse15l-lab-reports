@@ -3,6 +3,6 @@
 ---
 This is my personal website for **CSE 15L** Lab Reports.
 
-1. [Class Website](https://ucsd-cse15l-w22.github.io/)
+1. [Lab Report 1](https://molit123.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
-2. [Lab Report 1](https://molit123.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+2. [Lab Report 2](https://molit123.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
