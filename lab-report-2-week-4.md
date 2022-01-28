@@ -2,7 +2,7 @@
 
 ## 1) Omitting Image Links
 
-* The first code change my group worked on was creating the ability to distinguish between image links and website links, and making sure that the image links weren't included in the final ArrayList. We added the follwing code: 
+* The first code change my group worked on was creating the ability to distinguish between image links and website links, and making sure that the image links weren't included in the final ArrayList. We added the following code: 
 
     ![Omitting Image Links Github](lab-report-2-images/image_omit.png)
 
