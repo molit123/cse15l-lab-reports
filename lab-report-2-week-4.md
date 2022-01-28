@@ -17,9 +17,9 @@
 
 * **SOLUTION:** To fix this, I added a condition that checks the character before the open bracket. If this character is equal to an exclamation mark, then I omit adding the substring to the Array List and skip to the next iteration in the while loop.
 
-## 2) Regular Text
+## 2) Regular Text vs Links
 
-* Another bug my group encountered and fixed was not being able to distinguish between regular text and an actual link. For example, if I have `[Random text](hello world)`, then I wouldn't want the `hello world` to be added to the Array List. The following file code for this edge case:
+* Another bug my group encountered and fixed was not being able to distinguish between regular text and an actual link. For example, if I have `[Random text](hello world)`, then I wouldn't want the `hello world` to be added to the Array List. The following shows what we added to fix this:
 
     ![No Links Github](lab-report-2-images/no_links.png)
 
@@ -30,13 +30,13 @@
 
     ![No Links output](lab-report-2-images/no_links_output.png)
 
-* In the original code, we never added any distinction between regular text and links (we simply added what was between the parentheses to the array list). This caused regular text to show up in the output as seen above, when an emnpty Array List should have been returned.
+* In the original code, we never added any distinction between regular text and links (we simply added what was between the parentheses to the Array List). This caused regular text to show up in the output as seen above, when an empty Array List should have been returned.
 
-* **SOLUTION:** To fix this bug, I needed to add some sort of distinction between regular text and links. I chose to check if there were any spaces in the subtring between the parentheses since links never contain spaces. If the substring contained spaces then I omit adding the substring to the Array List and skip to the next iteration in the while loop. 
+* **SOLUTION:** To fix this bug, I needed to add some sort of distinction between regular text and links. I decided to check if there were any spaces in the subtring since links never contain spaces. If the substring contained a space then I omit adding the substring to the Array List and skip to the next iteration in the while loop. 
 
-## 3) No Parentheses
+## 3) No Parentheses No Substring
 
-* Another issue in the code was that we were never checking for whether or not there were actually parentheses in the markdown file. Since `indexOf("(")` returns `-1` if there is no instance of it within the file, we would get an IndexOutOfBoundsException when creating a substring of the values between the parentheses. Here is the code to fix this edge case: 
+* Another issue in the code was that we were never checking for whether or not there were actually parentheses in the markdown file. Since `indexOf("(")` returns `-1` if there is no instance of it within the file, we would get an IndexOutOfBoundsException when creating a substring of the values between the parentheses. Here is the code we added to fix this edge case: 
 
     ![Bracket Only Github](lab-report-2-images/brackets.png)
 
@@ -48,4 +48,4 @@
 
 * In the original code, there was no condition that checked if the parentheses even existed before creating the substring of the markdown file. When we tried creating this substring, an IndexOutOfBoundsException was thrown since `-1` is not a valid index. In the test file, I have regular text inserted between two regular brackets, not parentheses. Therefore, this file also checks that regular text is not added to the Array List.
 
-*  **SOLUTION:** To fix this, I added a condition before creating the substring that checks whether `openParen` and `closeParen` are equal to -1. If so, then I udpdate `currentIndex` and skip to the next iteration in the while loop.
+*  **SOLUTION:** To fix this bug, I added a condition before creating the substring that checks whether `openParen` and `closeParen` are equal to -1. If so, then I increment `currentIndex` and skip to the next iteration in the while loop.
