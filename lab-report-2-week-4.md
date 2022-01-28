@@ -1,4 +1,5 @@
-# Lab Report #2
+ [Home](http://example.com/){: .btn .btn-green }
+# Lab Report #2 
 
 ## 1) Omitting Image Links
 
