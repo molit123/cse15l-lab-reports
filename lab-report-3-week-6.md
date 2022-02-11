@@ -8,7 +8,7 @@
 
     ![Config](lab-report-3-images/config_location.png)
     
-* I typed in the following into the config file. The text following `Host` is the alias that I chose. It also contains the hostname and username for logging into ieng6.
+* I typed the following into the config file. The text that follows `Host` is the alias that I chose. The file also contains the hostname and username for logging into ieng6.
 
     ![Config Content](lab-report-3-images/config_content.png)
 
