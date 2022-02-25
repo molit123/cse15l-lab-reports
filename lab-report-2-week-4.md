@@ -1,5 +1,5 @@
  [Home](https://molit123.github.io/cse15l-lab-reports/){: .btn .btn-green }
-# Lab Report #2 
+# Lab Report #2 - Week 4
 
 ## 1) Omitting Image Links
 

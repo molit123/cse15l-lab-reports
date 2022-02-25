@@ -1,5 +1,5 @@
  [Home](https://molit123.github.io/cse15l-lab-reports/){: .btn }
-# Lab Report #1
+# Lab Report #1 - Week 2
 
 ## 1) Installing VSCode
 * To begin installing VSCode, visit the website [here](https://code.visualstudio.com/) and follow the steps to download.
