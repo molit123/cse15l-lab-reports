@@ -4,7 +4,7 @@
     * In order to find the difference between the results,
     I ran a bash for loop and appended the results to a text file called `results.txt`. Then, I used the `diff` command to compare the two separate files. I've chosen two of the different test cases to compare.
 
-    * The first test file I will be comparing is Test File #495, that contains an regular text between the parentheses after the closed bracket. Here are the outputs of both implementations:
+* The first test file I will be comparing is Test File #495, that contains an regular text between the parentheses after the closed bracket. Here are the outputs of both implementations:
         * My output: `[foo(and(bar]`
         * Other output: `[foo(and(bar))]`
     * The correct output should be: `[]` since there is no valid link in the test file. Therefore, neither implementation returns the correct output.
@@ -12,7 +12,7 @@
     * For the other implementation, it returns everything within the parentheses, however, it never checks whether the text is a valid link. In order to do this, we would have to parse the substring within the parentheses and make sure there aren't any invalid characters, make sure there is a domain, etc. If so, it should simply skip the iteration and increment the index. There isn't any code that should necessarily be fixed, but there is code that should be added to the existing implementation.
 
 
-    * The second test I will be comparing is Test File #580 that contains an image with an invalid link. Here are the outputs of both implementations: 
+* The second test I will be comparing is Test File #580 that contains an image with an invalid link. Here are the outputs of both implementations: 
 
         * My output: `[]`
         * Other output: `[/url]`
